@@ -16,6 +16,10 @@ mod "thekevjames/homebrew",     :latest
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod "NaveTrub/pdk",
-  :git    => "https://github.com/SupBrah/pdk",
-  :branch => 'master'
+# mod "NaveTrub/pdk",
+#   :git    => "https://github.com/SupBrah/pdk",
+#   :branch => 'master'
+
+mod "puppetlabd/pdk",
+  :git    => 'https://github.com/puppetlabs/pdk',
+  :branch => 'master',
