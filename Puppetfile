@@ -4,6 +4,7 @@ forge "http://forge.puppetlabs.com"
 # Versions should be updated to be the latest at the time you start
 mod "puppetlabs/stdlib",        :latest
 mod "thekevjames/homebrew",     :latest
+mod "abuxton/pdk",              :latest
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
