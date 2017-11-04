@@ -1,6 +1,6 @@
 ## apt.pp ##
 
 # Ubuntu/Debian boxes should have the apt module:
-node $facts['osfamily'] == 'Debian' {
+node 'davos.narrowsea.lan' {
   include apt
 }
