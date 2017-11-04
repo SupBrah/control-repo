@@ -20,6 +20,6 @@ mod "thekevjames/homebrew",     :latest
 #   :git    => "https://github.com/SupBrah/pdk",
 #   :branch => 'master'
 
-mod "puppetlabd/pdk",
+mod "puppetlabs/pdk",
   :git    => 'https://github.com/puppetlabs/pdk',
   :branch => 'master'
