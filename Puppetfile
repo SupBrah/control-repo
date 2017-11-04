@@ -22,4 +22,4 @@ mod "thekevjames/homebrew",     :latest
 
 mod "puppetlabd/pdk",
   :git    => 'https://github.com/puppetlabs/pdk',
-  :branch => 'master',
+  :branch => 'master'
