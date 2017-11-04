@@ -8,10 +8,9 @@ class install_pdk {
       }
     }
     'Darwin' : {
-      package { 'pdk-1.2.1.0-1.osx10.12' :
+      package { 'pdk' :
         ensure   => present,
-        source   => 'puppet:///modules/install_pdk/pdk-1.2.1.0-1.osx10.12.dmg',
-        provider => 'pkgdmg',
+        provider => 'homebrew',
       }
     }
     default : {}
