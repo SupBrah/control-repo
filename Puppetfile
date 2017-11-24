@@ -4,7 +4,7 @@ forge "http://forge.puppetlabs.com"
 # Versions should be updated to be the latest at the time you start
 mod "puppetlabs/stdlib",        :latest
 mod "thekevjames/homebrew",     :latest
-mod "puppetlabs/apt",           :latest
+# mod "puppetlabs/apt",           :latest
 mod 'puppet-puppetboard',       :latest
 
 # Modules from Git
