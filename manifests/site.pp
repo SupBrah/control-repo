@@ -30,3 +30,9 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node davos {
+  package { 'lsb-release':
+      ensure => installed,
+  }
+}
